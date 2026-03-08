@@ -1,0 +1,68 @@
+/* ===== Global ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* ===== Form ===== */
+.student-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.student-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1;
+}
+
+.student-form button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.student-form button:hover {
+  background-color: #45a049;
+}
+
+/* ===== Student List ===== */
+.student-list {
+  display: grid;
+  gap: 15px;
+}
+
+/* ===== Student Card ===== */
+.student-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.student-card p {
+  margin: 6px 0;
+}
+
+.student-card ul {
+  padding-left: 20px;
+  margin: 5px 0 0 0;
+}
